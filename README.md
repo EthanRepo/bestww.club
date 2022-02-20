@@ -1,2 +1,2 @@
-# bestwwclub
+# bestww.club
 bestww.club

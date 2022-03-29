@@ -39,7 +39,7 @@ function startIntroTyping() {
 function typerStartTyping(typer) {
   typer.reset();
 
-  let text = ['best minecrafter', 'best projects', 'best gamer', 'best skid', 'best duels'];
+  let text = ['best youtube', 'best projects', 'best videos', 'best skid', 'best bio'];
 
   text.forEach(function (language, index) {
     typer.move(null);
@@ -74,7 +74,7 @@ function switchScreen() {
   });
 
   ['la', 'rain'].forEach(function (audioName) {
-    let fullPath = `https://cdn.glitch.global/378b4801-6a76-46f1-819e-b4d59332a2f2/${audioName}.mp3`;
+    let fullPath = `https://bestww.club/assets/${audioName}.mp3`;
 
     let audioElement = document.createElement('audio');
     audioElement.setAttribute('src', fullPath);

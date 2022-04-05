@@ -18,6 +18,10 @@ function openSocial(type) {
       url = 'https://e-z.bio/bestww';
       window.open(url, '_blank');
       break;
+      case 'discord':
+      url = 'https://discord.gg/25ucydZ743';
+      window.open(url, '_blank');
+      break;
   }
 
 }

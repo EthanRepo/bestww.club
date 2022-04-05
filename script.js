@@ -39,7 +39,7 @@ function startIntroTyping() {
 function typerStartTyping(typer) {
   typer.reset();
 
-  let text = ['best youtube', 'best projects', 'best videos', 'best skid', 'best bio'];
+  let text = ['best youtube', 'best projects', 'best community', 'best discord', 'best club'];
 
   text.forEach(function (language, index) {
     typer.move(null);

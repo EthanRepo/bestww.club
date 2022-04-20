@@ -19,7 +19,7 @@ function openSocial(type) {
       window.open(url, '_blank');
       break;
       case 'discord':
-      url = 'https://discord.gg/25ucydZ743';
+      url = 'https://discord.gg/clownery';
       window.open(url, '_blank');
       break;
   }

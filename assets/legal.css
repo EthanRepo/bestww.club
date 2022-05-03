@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@500&display=swap');
+  body {
+  color: #ffffff;
+  font-family:encode sans expanded,sans-serif;
+    background-color: #2C3035;
+   margin:0;
+  }
+  #legalhead {
+  text-align:center;
+  }
+ ul {
+    list-style-type:none;
+   overflow:hidden;
+  background-color:#23262A;
+  margin-top: 0px;
+  }
+  li {
+  float:left;
+  }
+  li a {
+  display:block;
+    text-align:center;
+    padding:20px 23px;
+    text-decoration:none;
+   color:#ffffff;
+   font-size: 15px;
+  }
+  li a:hover {
+  background-color: #000000;
+ }
+   .active {
+    background-color: #4289C1ff;
+    }
+ .active:hover {
+    background-color: #356E9A;
+    }
+ h1 {
+ font-size: 44px;
+ }
+ p, h2 {
+  margin:8px;
+  line-spacing:1.5;
+ }

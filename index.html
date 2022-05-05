@@ -43,5 +43,11 @@ worldwide</span
 </div>
 </div>
 </div>
+<script>
+function cb(response) {
+    document.getElementById('visits').innerText = response.value;
+}
+</script>
+<script async src="https://api.countapi.xyz/hit/bestww.club/visits?callback=cb"></script>
 </body>
 <style>/* Lol, never skid from bestww.club! */</style>
